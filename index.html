@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070a0b" />
+    <meta name="description" content="Meet VANTA X1 by AERON — a cinematic autonomous flight experience engineered for a new perspective." />
+    <title>AERON — VANTA X1</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon-Q7DeXQ3a.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-BVyDfmzk.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D_gxWgIO.css">
+  </head>
+  <body class="is-loading">
+    <div id="loader" class="loader" aria-live="polite">
+      <div class="loader__grid" aria-hidden="true"></div>
+      <div class="loader__top micro"><span>AERON / FLIGHT SYSTEMS</span><span>INITIALIZING</span></div>
+      <div class="loader__center">
+        <div class="loader__mark" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="eyebrow">VANTA SERIES / 01</p>
+        <h2>Beyond<br />the expected.</h2>
+        <div class="loader__progress"><span id="loaderBar"></span></div>
+        <div class="loader__status micro"><span id="loaderStatus">Preparing flight systems</span><span id="loaderPercent">00%</span></div>
+        <button id="enterButton" class="button button--light loader__enter" type="button" hidden>
+          <span>Enter experience</span><span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <div class="loader__bottom micro"><span>WEBGL / REALTIME 3D</span><span>HEADPHONES RECOMMENDED</span></div>
+    </div>
+
+    <div id="experience" class="experience" aria-hidden="true">
+      <canvas id="scene" aria-label="Interactive three-dimensional VANTA X1 drone"></canvas>
+      <div class="scene-vignette" aria-hidden="true"></div>
+      <div class="scene-grain" aria-hidden="true"></div>
+
+      <header class="site-header">
+        <button class="brand" type="button" data-jump="0" aria-label="AERON home">
+          <svg viewBox="0 0 34 26" aria-hidden="true"><path d="M2 23 15.4 3h3.2L32 23h-7.2l-7.8-12.5L9.2 23Z" fill="currentColor"/><path d="m13.5 20 3.4-5.4 3.5 5.4Z" fill="currentColor"/></svg>
+          <span>AERON</span>
+        </button>
+        <nav class="main-nav" aria-label="Experience chapters">
+          <button type="button" data-jump="1">Design</button>
+          <button type="button" data-jump="2">Imaging</button>
+          <button type="button" data-jump="3">Intelligence</button>
+        </nav>
+        <button class="model-tag micro" type="button" data-open-specs><span>VANTA X1</span><span>VIEW SPECS ↗</span></button>
+      </header>
+
+      <aside class="side-meta micro" aria-hidden="true"><span>AUTONOMOUS FLIGHT SYSTEM</span><i></i><span>37° 46' 30.2" N</span></aside>
+      <div class="telemetry micro" aria-hidden="true">
+        <div><span>ALT</span><strong id="altitude">0120</strong><small>M</small></div>
+        <div><span>SPD</span><strong id="speed">00.0</strong><small>M/S</small></div>
+        <i></i><span id="signal">LINK / STABLE</span>
+      </div>
+
+      <main id="story" class="story">
+        <section class="chapter chapter--hero" data-chapter="0" aria-label="Introducing VANTA X1">
+          <div class="chapter__sticky">
+            <div class="chapter__copy hero-copy">
+              <p class="eyebrow reveal">INTRODUCING / VANTA X1</p>
+              <h1 class="hero-title reveal"><span>VANTA</span><span>X1.</span></h1>
+              <div class="hero-footer reveal">
+                <p>The sky is no longer the limit.<br />It’s your canvas.</p>
+                <button class="round-link" type="button" data-jump="1" aria-label="Discover the design">↘</button>
+              </div>
+            </div>
+            <div class="hero-stamp micro reveal"><span>01 / CINEMATIC FLIGHT</span><span>BUILT FOR THE EXTRAORDINARY</span></div>
+          </div>
+        </section>
+
+        <section class="chapter chapter--right" data-chapter="1" aria-label="Aerodynamic design">
+          <div class="chapter__sticky">
+            <div class="chapter__copy">
+              <p class="eyebrow">01 / AERODYNAMIC DESIGN</p>
+              <h2>Designed<br />around the air.</h2>
+              <p class="chapter__lead">A sculpted carbon airframe. Folding geometry. Four low-noise rotors working in perfect sync.</p>
+              <div class="feature-line"><span>01</span><p><strong>Compact by design</strong>From full flight to your backpack in one fluid motion.</p></div>
+              <div class="feature-line"><span>02</span><p><strong>Quiet confidence</strong>Optimized propellers soften every takeoff and landing.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter chapter--left" data-chapter="2" aria-label="Cinematic imaging">
+          <div class="chapter__sticky">
+            <div class="chapter__copy">
+              <p class="eyebrow">02 / CINEMATIC IMAGING</p>
+              <h2>A new eye<br />on the world.</h2>
+              <p class="chapter__lead">Turn changing light into your signature. VANTA captures texture, color and movement with remarkable depth.</p>
+              <div class="metric-row">
+                <div><strong>5.1K</strong><span>HDR VIDEO</span></div>
+                <div><strong>4/3</strong><span>CMOS SENSOR</span></div>
+                <div><strong>3-AXIS</strong><span>MECHANICAL GIMBAL</span></div>
+              </div>
+              <p class="footnote">Concept specifications for this interactive experience.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter chapter--right" data-chapter="3" aria-label="Autonomous intelligence">
+          <div class="chapter__sticky">
+            <div class="chapter__copy">
+              <p class="eyebrow">03 / AUTONOMOUS INTELLIGENCE</p>
+              <h2>Thinks ahead.<br />Flies smarter.</h2>
+              <p class="chapter__lead">Omnidirectional sensing reads the environment in real time, so you can stay focused on the shot.</p>
+              <ul class="mode-list">
+                <li><span>01</span><strong>ActiveTrack</strong><small>Keep your subject in frame</small></li>
+                <li><span>02</span><strong>Waypoint</strong><small>Draw a path. Own the movement</small></li>
+                <li><span>03</span><strong>Return</strong><small>A safe route back, automatically</small></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter chapter--left" data-chapter="4" aria-label="Flight performance">
+          <div class="chapter__sticky">
+            <div class="chapter__copy">
+              <p class="eyebrow">04 / FLIGHT PERFORMANCE</p>
+              <h2>Stay in the<br />moment. Longer.</h2>
+              <p class="chapter__lead">More time to find the angle. More range to follow the idea. Less between you and the horizon.</p>
+              <div class="metric-row metric-row--large">
+                <div><strong>42<sup>MIN</sup></strong><span>MAX FLIGHT TIME</span></div>
+                <div><strong>15<sup>KM</sup></strong><span>HD TRANSMISSION</span></div>
+              </div>
+              <div class="wind-line micro"><span>WIND RESISTANCE</span><i></i><strong>12 M/S</strong></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="chapter chapter--final" data-chapter="5" aria-label="Discover VANTA X1">
+          <div class="chapter__sticky">
+            <div class="chapter__copy final-copy">
+              <p class="eyebrow">VANTA X1 / YOUR NEXT PERSPECTIVE</p>
+              <h2>Make the world<br />look again.</h2>
+              <p>One aircraft. Infinite points of view.</p>
+              <button class="button button--light" type="button" data-open-specs><span>Explore VANTA X1</span><span>↗</span></button>
+            </div>
+            <div class="final-footer micro"><span>© 2026 AERON CONCEPT LAB</span><button type="button" id="creditsButton">MODEL & CREDITS</button><span>DESIGNED FOR THE SKY</span></div>
+          </div>
+        </section>
+      </main>
+
+      <div class="chapter-nav" aria-label="Chapter progress">
+        <span id="chapterNumber" class="micro">00 / 05</span>
+        <div class="chapter-nav__track"><i id="chapterProgress"></i></div>
+        <span id="chapterName" class="micro">INTRODUCTION</span>
+      </div>
+      <button id="soundButton" class="sound-button micro" type="button" aria-pressed="false"><i></i><span>SOUND OFF</span></button>
+      <div id="scrollHint" class="scroll-hint micro"><span>SCROLL TO DISCOVER</span><i></i></div>
+    </div>
+
+    <dialog id="specsDialog" class="specs-dialog">
+      <button class="dialog-close" type="button" aria-label="Close specifications">×</button>
+      <p class="eyebrow">VANTA X1 / CONCEPT SERIES</p>
+      <h2>Small aircraft.<br />Uncompromising vision.</h2>
+      <div class="spec-grid">
+        <div><span>CAMERA</span><strong>4/3 CMOS · 5.1K HDR</strong></div>
+        <div><span>STABILIZATION</span><strong>3-axis mechanical gimbal</strong></div>
+        <div><span>FLIGHT TIME</span><strong>Up to 42 minutes</strong></div>
+        <div><span>TRANSMISSION</span><strong>15 km HD video link</strong></div>
+        <div><span>SENSING</span><strong>Omnidirectional obstacle detection</strong></div>
+        <div><span>DESIGN</span><strong>Folding carbon airframe</strong></div>
+      </div>
+      <p class="dialog-note">AERON and VANTA are fictional concept identities created for this realtime design experience. Specifications are illustrative.</p>
+      <div id="modelCredits" class="model-credits micro">3D MODEL / LOADING CREDITS…</div>
+    </dialog>
+  </body>
+</html>
